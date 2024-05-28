@@ -1,0 +1,31 @@
+﻿@page "/listaenteros"
+@rendermode InteractiveServer
+
+<PageTitle>ListaEnteros</PageTitle>
+
+<button @onclick="Mostar">@_estado</button>
+<div id = "grupo1">
+    @if(_mostar){
+        <ul>
+            @foreach(int num in _enteros){
+                <li>Numero: @num</li>
+            }
+        </ul>
+    }
+</div>
+
+
+@code{
+    private bool _mostar = true;
+    private List<int> _enteros = new List<int>(){1,2,3,4,5};
+    private string _estado = "Ocultar";
+    private void Mostar(){
+        _mostar = !_mostar;
+        if(_mostar){
+            _estado = "Ocultar";
+        }
+        else{
+            _estado = "Mostar";
+        }
+    }
+}
