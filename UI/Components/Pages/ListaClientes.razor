@@ -1,23 +1,27 @@
-﻿@page "/listaenteros"
+﻿@page "/listaclientes"
 @rendermode InteractiveServer
+@using UI.Entidades
 
-<PageTitle>ListaEnteros</PageTitle>
+<PageTitle>Lista_Clientes</PageTitle>
+
+
+<h2>Listado de clientes</h2>
 
 <button @onclick="Mostar">@_estado</button>
-<div id = "grupo1">
+
+<div>
     @if(_mostar){
         <ul>
-            @foreach(int num in _enteros){
-                <li>Numero: @num</li>
+            @foreach(Cliente c in lista){
+                <li>@c.Apellido, @c.Nombre, @c.Edad.</li>
             }
         </ul>
     }
 </div>
 
-
 @code{
     private bool _mostar = true;
-    private List<int> _enteros = new List<int>(){1,2,3,4,5};
+    private List<Cliente> lista = Cliente.GetClientes();
     private string _estado = "Ocultar";
     private void Mostar(){
         _mostar = !_mostar;

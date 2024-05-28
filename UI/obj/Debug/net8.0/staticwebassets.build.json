@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "liWWE5qx6lC/1+lSebaRs/ylSWqngL3m+6GR1PooQVQ=",
+  "Hash": "HAI7SgoQPo6/d8jEUeu4Ywmi26TTpehlEbqpx/ROces=",
   "Source": "UI",
   "BasePath": "_content/UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "UI\\wwwroot",
       "Source": "UI",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UI.styles.css",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UI.styles.css",
       "SourceId": "UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/UI",
       "RelativePath": "UI.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UI.styles.css"
+      "OriginalItemSpec": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UI.styles.css"
     },
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UI.bundle.scp.css",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UI.bundle.scp.css",
       "SourceId": "UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/UI",
       "RelativePath": "UI.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UI.bundle.scp.css"
+      "OriginalItemSpec": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\app.css",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\app.css",
       "SourceId": "UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\favicon.png",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\favicon.png",
       "SourceId": "UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\test.html",
+      "Identity": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\test.html",
       "SourceId": "UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
+      "ContentRoot": "c:\\1-Proyectos\\C#\\Blazor\\BlazorUI\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
       "RelativePath": "test.html",
       "AssetKind": "All",
