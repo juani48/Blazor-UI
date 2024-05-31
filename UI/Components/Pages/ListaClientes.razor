@@ -1,16 +1,17 @@
 ﻿@page "/listaclientes"
 @rendermode InteractiveServer
 @using UI.Entidades
+@using UI.Components.Layout
 
 <PageTitle>Lista_Clientes</PageTitle>
 
 
 <h2>Listado de clientes</h2>
 
-<button @onclick="Mostar">@_estado</button>
+<button id="Boton lista" @onclick="MostrarLista">@Cambiar(_mostrarLista)</button>
 
 <div>
-    @if(_mostar){
+    @if(_mostrarLista){
         <ul>
             @foreach(Cliente c in lista){
                 <li>@c.Apellido, @c.Nombre, @c.Edad.</li>
@@ -19,17 +20,56 @@
     }
 </div>
 
+<button @onclick= "MostrarAgregar">@Cambiar(_mostrarAgregar) opciones de agregado de clientes</button>
+
+@if(_mostrarAgregar){
+    <h4>Agregar cliente</h4>
+    <div>
+        <input placeholder="Nombre" @bind="cliente.Nombre" /> <br>
+        <input placeholder="Apellido" @bind="cliente.Apellido"><br>
+        <input placeholder="Edad" type="number" @bind="cliente.Edad"><br>
+
+        <button @onclick="ConfirmarReseteo">Agregar cliente</button>
+    </div>
+
+    <Confirmacion @ref=dialogo OnConfirmado="Agregar" Mensaje="¿Está seguro que desea agregar el cliente?" />
+}
+
 @code{
-    private bool _mostar = true;
-    private List<Cliente> lista = Cliente.GetClientes();
-    private string _estado = "Ocultar";
-    private void Mostar(){
-        _mostar = !_mostar;
-        if(_mostar){
-            _estado = "Ocultar";
+    private bool _mostrarLista = true;
+    private bool _mostrarAgregar = false;
+    public List<Cliente> lista = Cliente.GetClientes();
+    
+    private void MostrarLista(){
+        _mostrarLista = !_mostrarLista;
+    }
+    private void MostrarAgregar(){
+        _mostrarAgregar = !_mostrarAgregar;
+    }
+
+    private string Cambiar(bool ok){
+        if(ok){
+            return "Ocultar";
         }
         else{
-            _estado = "Mostar";
+            return "Mostrar";
         }
+    }
+
+    <!--Agregado de clientes-->
+    Cliente cliente = new Cliente();
+    void Agregar(){
+        if(cliente.Edad > 0){
+            lista.Add(cliente);
+            cliente = new Cliente();
+        }
+
+    }
+
+    <!--Dialogo-->
+    Confirmacion dialogo = null!;
+    private void ConfirmarReseteo()
+    {
+        dialogo.Mostrar();
     }
 }
